@@ -50,7 +50,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title"><span style="color:#4770a6; font-weight: bold; font-style: italic">VBench-2.0</span> : Advancing Video Generation<br>Benchmark Suite for Intrinsic Faithfulness</h1>
+          <h1 class="title is-1 publication-title"><span style="color:#d6824a; font-weight: bold; font-style: italic">VBench-2.0</span> : Advancing Video Generation<br>Benchmark Suite for Intrinsic Faithfulness</h1>
           
           <div class="is-size-5 publication-authors">
             <span class="author-block">Mar 2025</span>
@@ -122,28 +122,19 @@
                 <span class="icon">
                   <i class="ai ai-arxiv"></i>
                 </span>
-                <span>Paper(VBench)</span>
-              </a>
-            </span>
-            <span class="link-block">
-              <a href="https://arxiv.org/abs/2411.13503" target="_blank"
-                class="external-link button is-normal is-rounded is-dark">
-                <span class="icon">
-                  <i class="ai ai-arxiv"></i>
-                </span>
-                <span>Paper(VBench++)</span>
+                <span>Paper (VBench-2.0)</span>
               </a>
             </span>
             <!-- Video Link. -->
-            <span class="link-block">
-              <a href="https://www.youtube.com/watch?v=7IhCC8Qqn8Y" target="_blank"
+            <!-- <span class="link-block">
+              <a href="" target="_blank"
                 class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                   <i class="fab fa-youtube"></i>
                 </span>
                 <span>Video</span>
               </a>
-            </span>
+            </span> -->
             <!-- Code Link. -->
             <span class="link-block">
               <a href="https://github.com/Vchitect/VBench" target="_blank"
@@ -155,7 +146,7 @@
               </a>
             </span>
             <!-- Huggingface Demo Link. -->
-            <span class="link-block">
+            <!-- <span class="link-block">
               <a href="https://huggingface.co/spaces/Vchitect/VBench_Leaderboard" target="_blank"
                 class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
@@ -163,7 +154,7 @@
                 </span>
                 <span>Huggingface Demo</span>
               </a>
-            </span>
+            </span> -->
 
           </div>
 
@@ -549,32 +540,56 @@
 
 
 
+<!-- VLM Example -->
+<section class="section" style="margin-top:-100px; margin-bottom:-100px;">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <div class="section-title">
+          <h2 class="title is-3 is-centered">Example for Evaluating Plot Consistency.</h2>
+        </div>
+        <div class="columns is-centered has-text-centered">
+          <div class="column">
+            <div class="publication-img">
+              <img id="architecture" src="assets/vbench/images/figures/fig_plot_example.pdf" style="width:1000px; margin-top:10px;margin-bottom:10px;"/>
+            </div>
+          </div>
+        </div>
+        <p style="margin-top: 0;">
+          <!-- The two graphs provide an overview of our prompt suites. <b>Left: </b>the word cloud to visualize word distribution of our prompt suites. <b>Right: </b>the -->
+          <!-- number of prompts across different evaluation dimensions and different content categories. -->
+        </p>
+    </div>
+  </div>
+</section>
+
 <!-- BibTeX -->
 <section class="hero is-light is-small" id="BibTeX" >
   <div class="container is-max-desktop content" style="margin-top: 40px; margin-bottom: 20px;">
     <h2 class="title">BibTeX</h2>
-    <p>If you find our work useful, please consider citing our paper:</p>
+    <p>If you find our work useful, please consider citing our works:</p>
     <pre><code>@article{zheng2025vbench2,
-      title={VBench-2.0 : Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness},
+      title={{VBench-2.0}: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness},
       author={Zheng, Dian and Huang, Ziqi and Liu, Hongbo and Zou, Kai and He, Yinan and Zhang, Fan and Zhang, Yuanhan and He, Jingwen and Zheng, Wei-Shi and Qiao, Yu and Liu, Ziwei},
       journal={arXiv preprint arXiv:tbc.tbc},
       year={2025}
-    }
-      
-      
-      @InProceedings{huang2023vbench,
-      title={{VBench}: Comprehensive Benchmark Suite for Video Generative Models},
-      author={Huang, Ziqi and He, Yinan and Yu, Jiashuo and Zhang, Fan and Si, Chenyang and Jiang, Yuming and Zhang, Yuanhan and Wu, Tianxing and Jin, Qingyang and Chanpaisit, Nattapol and Wang, Yaohui and Chen, Xinyuan and Wang, Limin and Lin, Dahua and Qiao, Yu and Liu, Ziwei},
-      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-      year={2024}
 }
-
+      
 @article{huang2024vbench++,
   title={VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models},
   author={Huang, Ziqi and Zhang, Fan and Xu, Xiaojie and He, Yinan and Yu, Jiashuo and Dong, Ziyue and Ma, Qianli and Chanpaisit, Nattapol and Si, Chenyang and Jiang, Yuming and Wang, Yaohui and Chen, Xinyuan and Chen, Ying-Cong and Wang, Limin and Lin, Dahua and Qiao, Yu and Liu, Ziwei},
   journal={arXiv preprint arXiv:2411.13503},
   year={2024}
-}</code></pre>
+}
+      
+@InProceedings{huang2023vbench,
+  title={{VBench}: Comprehensive Benchmark Suite for Video Generative Models},
+  author={Huang, Ziqi and He, Yinan and Yu, Jiashuo and Zhang, Fan and Si, Chenyang and Jiang, Yuming and Zhang, Yuanhan and Wu, Tianxing and Jin, Qingyang and Chanpaisit, Nattapol and Wang, Yaohui and Chen, Xinyuan and Wang, Limin and Lin, Dahua and Qiao, Yu and Liu, Ziwei},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2024}
+}
+
+
+</code></pre>
   </div>
 </section>
 
